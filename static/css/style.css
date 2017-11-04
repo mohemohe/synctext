@@ -1,0 +1,20 @@
+#main {
+  margin-top: 1rem;
+}
+
+.brand-logo {
+  margin-left: 1rem;
+}
+
+.indicator {
+  display: none !important;
+}
+
+.id {
+  width: 320px !important;
+}
+
+.tabs .id {
+  margin-left: 2rem !important;
+  width: calc(100vw - 150px - 2rem) !important;
+}

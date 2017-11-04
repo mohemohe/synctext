@@ -1,0 +1,17 @@
+{
+  "express": {
+    "port": 3080,
+    "endpoint": "/",
+    "maxSockets": 2048
+  },
+  "socketio": {
+    "heartbeatInterval": 10000,
+    "heartbeatTimeout": 30000
+  },
+  "nedb": {
+    "filename": "./session.db"
+  },
+  "randomstring": {
+    "length": 7
+  }
+}
